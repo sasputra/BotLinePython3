@@ -11,14 +11,14 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-nadya = LINE()
+Nadya = LINE("u30241a8da69b813b579bbd18e420f993")
 #nadya = LINE("TOKEN KAMU")
 #nadya = LINE("Email","Password")
-nadya.log("Auth Token : " + str(nadya.authToken))
-channelToken = nadya.getChannelResult()
+nadya.log("Auth Token : " + str(angker.authToken))
+channelToken = angker.getChannelResult()
 nadya.log("Channel Token : " + str(channelToken))
 
-ki = LINE()
+ki = LINE("u30241a8da69b813b579bbd18e420f993")
 #ki = LINE("TOKEN KAMU")
 #ki = LINE("Email","Password")
 ki.log("Auth Token : " + str(ki.authToken))
@@ -56,9 +56,9 @@ ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 
 Bots = [nadyaMID,kiMID,ki2MID,ki3MID,ki4MID]
-creator = ["u14f64e139a3817afaabe27d237afb36b","u92e4326146a0bf296ca15846aa2a25f6"]
-Owner = ["u14f64e139a3817afaabe27d237afb36b"]
-admin = ["u14f64e139a3817afaabe27d237afb36b"]
+creator = ["u30241a8da69b813b579bbd18e420f993","u30241a8da69b813b579bbd18e420f993"]
+Owner = ["u30241a8da69b813b579bbd18e420f993"]
+admin = ["u30241a8da69b813b579bbd18e420f993"]
 
 nadyaProfile = nadya.getProfile()
 kiProfile = ki.getProfile()
